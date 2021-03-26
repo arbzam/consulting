@@ -1,0 +1,54 @@
+.slider-area {
+    min-height: 70vh;
+    max-width: 100%;
+    background-image: url("../images/slider-bg-min.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    background-position: right;
+    align-items: center;
+    min-width: 100%;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: $primary;
+    opacity: 0.15;
+}
+
+.slider-text {
+    z-index: 1;
+}
+
+.grow-business {
+    max-width: 580px;
+    h1 {
+        font-size: 60px;
+        font-family: $roboto;
+        text-transform: capitalize;
+        color: $primary;
+        font-weight: 600;
+    }
+}
+
+.slider {
+    .primary-head {
+        font-size: 26px !important;
+    }
+}
+
+.min-height {
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    background: #eeeeee;
+}
+
+.slider-area.breadcrumb-container {
+    min-height: 40vh;
+}

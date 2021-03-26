@@ -1,0 +1,46 @@
+.custom-nav {
+    background: $text-white;
+    .navbar-brand {
+        color: $primary;
+        font-weight: 600;
+    }
+}
+
+.custom-nav-clr {
+    .nav-item {
+        .nav-link {
+            color: $primary;
+            font-weight: 600;
+            text-transform: capitalize;
+            padding: 0px 20px;
+        }
+        &:last-child {
+            .nav-link {
+                padding-right: 10px;
+            }
+        }
+        transition: $transition;
+        border-bottom: 2px solid transparent;
+        &:hover {
+            transform: translateY(-4px);
+            .nav-link {
+                color: $secondary;
+            }
+        }
+    }
+}
+
+.navbar-toggler {
+    outline: none !important;
+    background-color: $primary;
+    transition: $transition;
+    &:hover {
+        i {
+            color: $secondary;
+        }
+    }
+    i {
+        color: $text-white !important;
+        font-size: 20px;
+    }
+}

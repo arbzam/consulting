@@ -1,0 +1,130 @@
+.font-size-30 {
+    font-size: 30px;
+}
+
+.font-size-28 {
+    font-size: 28px;
+}
+
+.font-size-26 {
+    font-size: 26px;
+}
+
+.font-size-24 {
+    font-size: 24px;
+}
+
+.font-size-22 {
+    font-size: 22px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-10 {
+    font-size: 10px;
+}
+
+.font-size-8 {
+    font-size: 8px;
+}
+
+.font-size-45 {
+    font-size: 45px;
+}
+
+.open-sans {
+    font-family: $open-sans;
+}
+
+.roboto {
+    font-family: $roboto;
+}
+
+.text-white {
+    color: $text-white;
+}
+
+.text-black {
+    color: $text-black;
+}
+
+.text-9 {
+    color: $text-9;
+}
+
+.primary {
+    color: $primary;
+}
+
+.secondry {
+    color: $secondary;
+}
+
+.primary-bg {
+    background: $primary;
+}
+
+.secondry-bg {
+    background: $secondary;
+}
+
+.padding-top {
+    padding-top: 100px;
+}
+
+.padding-bottom {
+    padding-bottom: 100px;
+}
+
+.margin-top {
+    margin-top: 150px;
+}
+
+.primary-head {
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: $roboto;
+    color: $primary;
+    font-weight: 600;
+}
+
+.border-head {
+    margin-bottom: 60px;
+    position: relative;
+    &::after {
+        position: absolute;
+        content: "";
+        min-width: 110px;
+        min-height: 4px;
+        background: $primary;
+        border-bottom: 4px solid $primary;
+        top: 65px;
+    }
+}
+
+.span-border {
+    border-left: 55px solid $secondary;
+    display: inline-block;
+    height: 4px;
+    position: relative;
+    top: -10px;
+    margin-right: 10px;
+}

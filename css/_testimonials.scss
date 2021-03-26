@@ -1,0 +1,47 @@
+.test-person.icon-div {
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    background: $primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+.testimonial-data {
+    height: 50px;
+}
+
+.service-box.test-box {
+    min-height: 230px;
+    padding: 30px 20px;
+    &:hover {
+        i {
+            color: $text-white;
+        }
+        .testimonial-data {
+            h2,
+            small {
+                color: $text-white;
+            }
+        }
+    }
+}
+
+.row.testimonial-row {
+    .col-12 {
+        &:first-of-type {
+            transform: translateY(40px);
+        }
+    }
+    .col-12 {
+        &:last-of-type {
+            transform: translateY(40px);
+        }
+    }
+}

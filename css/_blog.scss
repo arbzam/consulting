@@ -1,0 +1,93 @@
+.border-head.blog {
+    max-width: 200px;
+}
+
+.blog-box {
+    max-width: 100%;
+    min-height: 400px;
+    box-shadow: $shadow;
+    cursor: pointer;
+    &:hover {
+        cursor: pointer;
+        img {
+            transform: scale(1.1);
+            transition: $transition;
+        }
+        .post-author {
+            background: $primary;
+            p {
+                color: $text-white;
+            }
+        }
+    }
+}
+
+.blog-img {
+    background: $primary;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 232px;
+    position: relative;
+    &:hover {
+        cursor: pointer;
+        img {
+            transform: scale(1.1);
+            transition: $transition;
+        }
+        .post-author {
+            background: $primary;
+            p {
+                color: $text-white;
+            }
+        }
+    }
+}
+
+.post-author {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background: #eeeeee;
+    padding: 20px;
+    p {
+        color: $primary;
+        font-size: 16px;
+        font-family: $roboto;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: $text-9;
+    }
+}
+
+.category-links {
+    margin-top: 30px;
+    .link-design {
+        text-transform: capitalize;
+        border: 1px solid $text-9;
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 10px;
+        cursor: pointer;
+        &:first-of-type {
+            margin-left: 0;
+        }
+        a {
+            font-weight: 400;
+            font-family: $open-sans;
+            text-transform: capitalize;
+            color: $primary;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}

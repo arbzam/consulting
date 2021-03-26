@@ -1,0 +1,47 @@
+.services {
+    min-height: 600px;
+}
+
+.service-box {
+    max-width: 400px;
+    box-shadow: $shadow;
+    min-height: 400px;
+    padding: 40px 30px;
+    cursor: pointer;
+    &:hover {
+        transition: $transition;
+        background-image: linear-gradient(-120deg, $primary 20%, $secondary 0%);
+        transform: translateY(-10px);
+        .service-text {
+            p,
+            h2 {
+                color: $text-white;
+            }
+        }
+    }
+    .icon-div {
+        font-size: 50px;
+        i {
+            color: $primary;
+        }
+    }
+}
+
+.row.service-row {
+    .col-12 {
+        &:nth-child(2) {
+            transform: translateY(40px);
+        }
+    }
+}
+
+.service-page {
+    .row.service-row {
+        .col-12 {
+            margin-bottom: 20px;
+            &:nth-child(2) {
+                transform: translateY(0px);
+            }
+        }
+    }
+}

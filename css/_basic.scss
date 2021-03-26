@@ -1,0 +1,43 @@
+@import "variables";
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1920px;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.slick-list.slick-initialized {
+    opacity: 0;
+}
+
+.privacydata {
+    padding: 100px 0;
+    p {
+        color: $text-9;
+        font-family: $open-sans;
+        line-height: 20px;
+        text-transform: capitalize;
+        text-align: justify;
+        font-size: 15px;
+    }
+}

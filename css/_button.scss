@@ -1,0 +1,54 @@
+.contact-btn {
+    min-width: 170px;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none !important;
+    border: 0;
+    font-size: 20px;
+    font-weight: 500;
+    background: $primary;
+    color: $text-white;
+}
+
+.hvr-bounce-to-right {
+    &::before {
+        background: $secondary;
+    }
+}
+
+.more-btn {
+    outline: none !important;
+    border: 0;
+    min-width: 150px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: $open-sans;
+    font-weight: 500;
+    text-transform: capitalize;
+    background: $secondary;
+    color: $text-white;
+    transition: $transition;
+    &:hover {
+        background: $primary;
+        box-shadow: $shadow;
+    }
+}
+
+.subscribe-btn {
+    min-width: 150px;
+    outline: none !important;
+    border: 0;
+    background: $primary;
+    color: $text-white;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: $roboto;
+    min-height: 50px;
+    margin: auto;
+}
+
+button {
+    border-radius: 4px;
+}

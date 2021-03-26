@@ -1,0 +1,21 @@
+.bread-crumb {
+    h2 {
+        font-size: 45px;
+    }
+}
+
+.m-w {
+    max-width: 250px;
+    margin: auto;
+    position: relative;
+    &::before {
+        position: absolute;
+        height: 4px;
+        width: 100px;
+        content: "";
+        margin-right: 50px;
+        background-color: $secondary;
+        left: -75px;
+        top: 28px;
+    }
+}
